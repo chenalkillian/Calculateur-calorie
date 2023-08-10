@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sport</class>
+ <widget class="QMainWindow" name="sport">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1351</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>sport</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>20</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calculateur de calorie :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="sexe">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>140</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="age">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>200</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="poids">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>260</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="taille">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>330</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Entrer votre sexe :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Age :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>260</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Votre poids :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>320</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Votre taille en cm :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="boutoncalculer">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>350</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CALCULER</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resultat">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>470</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>votre besoin calorique est de :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="contenu">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>90</y>
+      <width>591</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>170</y>
+      <width>141</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LIRE FICHIER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nettoyer">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>70</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NETTOYER ZONE DE TEXTE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="QUITTER">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>430</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>QUITTER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RECOMMENCER">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>260</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RECOMMENCER</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="typefichier">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>380</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>380</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Type du fichier: xls, txt ...</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1351</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
